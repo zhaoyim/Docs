@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <version>2.1</version>
+  <resource-change-set user="wangdong" date="2017-05-31T08:14:57.490Z" timestamp="2017-05-31T08:14:57.490Z">
+    <change idref="r1" attribute="name" type="string" from="OCDP研发1" to="郭茜" resolved="yes"/>
+    <change idref="r2" attribute="name" type="string" from="OCDP研发2" to="王琛" resolved="yes"/>
+    <change idref="r3" attribute="name" type="string" from="OCDP研发3" to="白凯" resolved="yes"/>
+    <change idref="r4" attribute="name" type="string" from="OCDP研发4" to="赵一鸣" resolved="yes"/>
+    <change idref="r5" attribute="name" type="string" from="" to="刘旭" resolved="yes"/>
+    <change idref="r6" attribute="name" type="string" from="OCDF研发2" to="柴宗三" resolved="yes"/>
+    <change idref="r7" attribute="name" type="string" from="OCDF研发3" to="袁伟明" resolved="yes"/>
+    <change idref="r8" attribute="name" type="string" from="OCDF研发4" to="柴宗三" resolved="yes"/>
+    <change idref="r9" attribute="name" type="string" from="橘云北京研发1" to="江彤" resolved="yes"/>
+    <change idref="r10" attribute="name" type="string" from="橘云北京研发2" to="敬晓阳" resolved="yes"/>
+    <change idref="r11" attribute="name" type="string" from="橘云北京研发3" to="张宁" resolved="yes"/>
+    <change idref="r12" attribute="name" type="string" from="橘云北京研发4" to="贾双喜" resolved="yes"/>
+    <change idref="r16" attribute="name" type="string" from="OCDP研发5" to="虞里杉" resolved="yes"/>
+  </resource-change-set>
+</changelog>

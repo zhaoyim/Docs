@@ -1,0 +1,1378 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<scenario xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opns="http://www.omnigroup.com/namespace/OmniPlan/v2" id="bZEZ7i0x117">
+  <start-date>2017-05-24T00:00:00.000Z</start-date>
+  <prototype-task>
+    <task id="t-2">
+      <title>&gt;任务 1</title>
+      <effort>28800</effort>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t-3">
+      <title>&gt;里程碑 1</title>
+      <type>milestone</type>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t-4">
+      <title>群组 1</title>
+      <type>group</type>
+    </task>
+  </prototype-task>
+  <prototype-resource>
+    <resource id="r-2">
+      <name>资源 1</name>
+      <type>Staff</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-3">
+      <name>设备 1</name>
+      <type>Equipment</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-4">
+      <name>素材 1</name>
+      <type>Material</type>
+      <units-available>0</units-available>
+      <efficiency>0</efficiency>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-5">
+      <name>群组 1</name>
+      <type>Group</type>
+    </resource>
+  </prototype-resource>
+  <top-resource idref="r-1"/>
+  <resource id="r-1">
+    <type>Group</type>
+    <child-resource idref="r1"/>
+    <child-resource idref="r2"/>
+    <child-resource idref="r3"/>
+    <child-resource idref="r4"/>
+    <child-resource idref="r16"/>
+    <child-resource idref="r5"/>
+    <child-resource idref="r6"/>
+    <child-resource idref="r7"/>
+    <child-resource idref="r8"/>
+    <child-resource idref="r9"/>
+    <child-resource idref="r10"/>
+    <child-resource idref="r11"/>
+    <child-resource idref="r12"/>
+    <child-resource idref="r13"/>
+    <child-resource idref="r14"/>
+    <child-resource idref="r15"/>
+    <child-resource idref="r17"/>
+  </resource>
+  <resource id="r1">
+    <name>郭茜</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r2">
+    <name>王琛</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r3">
+    <name>白凯</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r4">
+    <name>赵一鸣</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r5">
+    <name>刘旭</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r6">
+    <name>柴宗三</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r7">
+    <name>袁伟明</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r8">
+    <name>柴宗三</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r9">
+    <name>江彤</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r10">
+    <name>敬晓阳</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r11">
+    <name>张宁</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r12">
+    <name>贾双喜</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r13">
+    <name>现场研发1</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r14">
+    <name>现场研发2</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r15">
+    <name>现场研发3</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r16">
+    <name>虞里杉</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r17">
+    <name>现场研发4</name>
+    <type>Staff</type>
+  </resource>
+  <top-task idref="t-1"/>
+  <task id="t-1">
+    <type>group</type>
+    <child-task idref="t3"/>
+    <child-task idref="t2"/>
+    <child-task idref="t1"/>
+    <child-task idref="t4"/>
+    <child-task idref="t5"/>
+  </task>
+  <task id="t1">
+    <title>服务适配器开发</title>
+    <type>group</type>
+    <child-task idref="t6"/>
+    <child-task idref="t7"/>
+    <child-task idref="t8"/>
+    <child-task idref="t9"/>
+    <child-task idref="t10"/>
+    <child-task idref="t12"/>
+    <child-task idref="t13"/>
+    <child-task idref="t15"/>
+    <child-task idref="t16"/>
+    <child-task idref="t14"/>
+  </task>
+  <task id="t2">
+    <title>服务端开发－橘云多租户管理平台</title>
+    <type>group</type>
+    <start-constraint-date>2017-06-01T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t17"/>
+    <child-task idref="t18"/>
+    <child-task idref="t20"/>
+    <child-task idref="t21"/>
+    <start-no-earlier-than>2017-06-01T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t3">
+    <title>前端开发－橘云多租户管理平台</title>
+    <type>group</type>
+    <start-constraint-date>2017-06-01T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t22"/>
+    <child-task idref="t23"/>
+    <child-task idref="t24"/>
+    <child-task idref="t25"/>
+    <child-task idref="t26"/>
+    <child-task idref="t27"/>
+    <child-task idref="t30"/>
+    <child-task idref="t29"/>
+    <start-no-earlier-than>2017-06-01T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t4">
+    <title>与DACP调用接口开发</title>
+    <type>group</type>
+    <start-constraint-date>2017-06-01T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t160"/>
+    <child-task idref="t161"/>
+    <start-no-earlier-than>2017-06-01T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t5">
+    <title>与信云智交互过程开发</title>
+    <type>group</type>
+    <start-constraint-date>2017-06-01T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t32"/>
+    <child-task idref="t33"/>
+    <child-task idref="t162"/>
+    <child-task idref="t34"/>
+    <start-no-earlier-than>2017-06-01T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t6">
+    <title>HDFS服务及服务实例开发</title>
+    <type>group</type>
+    <start-constraint-date>2017-06-01T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t111"/>
+    <child-task idref="t112"/>
+    <child-task idref="t113"/>
+    <start-no-earlier-than>2017-06-01T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t7">
+    <title>YARN服务及服务实例开发</title>
+    <type>group</type>
+    <start-constraint-date>2017-06-01T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t114"/>
+    <child-task idref="t115"/>
+    <child-task idref="t116"/>
+    <prerequisite-task idref="t6"/>
+    <start-no-earlier-than>2017-06-01T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t8">
+    <title>HBase服务及服务实例开发</title>
+    <type>group</type>
+    <start-constraint-date>2017-06-01T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t117"/>
+    <child-task idref="t118"/>
+    <child-task idref="t119"/>
+    <start-no-earlier-than>2017-06-01T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t9">
+    <title>Hive服务及服务实例开发</title>
+    <type>group</type>
+    <start-constraint-date>2017-06-01T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t120"/>
+    <child-task idref="t121"/>
+    <child-task idref="t122"/>
+    <prerequisite-task idref="t8"/>
+    <start-no-earlier-than>2017-06-01T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t10">
+    <title>Kafka服务及服务实例开发</title>
+    <type>group</type>
+    <start-constraint-date>2017-06-01T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t123"/>
+    <child-task idref="t124"/>
+    <child-task idref="t125"/>
+    <prerequisite-task idref="t17"/>
+    <start-no-earlier-than>2017-06-01T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t12">
+    <title>Oracle服务及服务实例开发</title>
+    <type>group</type>
+    <start-constraint-date>2017-06-01T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t130"/>
+    <child-task idref="t131"/>
+    <child-task idref="t126"/>
+    <child-task idref="t127"/>
+    <child-task idref="t128"/>
+    <child-task idref="t132"/>
+    <start-no-earlier-than>2017-06-01T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t13">
+    <title>GreenPlum 服务及服务实例开发</title>
+    <type>group</type>
+    <start-constraint-date>2017-06-01T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t133"/>
+    <child-task idref="t134"/>
+    <child-task idref="t135"/>
+    <child-task idref="t136"/>
+    <child-task idref="t137"/>
+    <child-task idref="t138"/>
+    <start-no-earlier-than>2017-06-01T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t14">
+    <title>RabbitMQ服务及服务实例开发</title>
+    <type>group</type>
+    <start-constraint-date>2017-06-01T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t153"/>
+    <child-task idref="t154"/>
+    <child-task idref="t156"/>
+    <child-task idref="t157"/>
+    <child-task idref="t158"/>
+    <child-task idref="t159"/>
+    <start-no-earlier-than>2017-06-01T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t15">
+    <title>MongoDB服务及服务实例开发</title>
+    <type>group</type>
+    <start-constraint-date>2017-06-01T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t141"/>
+    <child-task idref="t142"/>
+    <child-task idref="t143"/>
+    <child-task idref="t144"/>
+    <child-task idref="t145"/>
+    <child-task idref="t146"/>
+    <start-no-earlier-than>2017-06-01T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t16">
+    <title>Neo4j服务及服务实例开发</title>
+    <type>group</type>
+    <start-constraint-date>2017-06-01T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t147"/>
+    <child-task idref="t148"/>
+    <child-task idref="t149"/>
+    <child-task idref="t150"/>
+    <child-task idref="t151"/>
+    <child-task idref="t152"/>
+    <start-no-earlier-than>2017-06-01T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t17">
+    <title>服务管理功能开发</title>
+    <type>group</type>
+    <start-constraint-date>2017-05-25T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t92"/>
+    <child-task idref="t93"/>
+    <child-task idref="t94"/>
+    <child-task idref="t95"/>
+    <start-no-earlier-than>2017-05-25T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t18">
+    <title>权限管理功能开发</title>
+    <type>group</type>
+    <start-constraint-date>2017-05-25T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t97"/>
+    <child-task idref="t98"/>
+    <child-task idref="t99"/>
+    <child-task idref="t100"/>
+    <start-no-earlier-than>2017-05-25T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t20">
+    <title>租户管理功能开发</title>
+    <type>group</type>
+    <start-constraint-date>2017-05-25T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t101"/>
+    <child-task idref="t102"/>
+    <child-task idref="t103"/>
+    <child-task idref="t104"/>
+    <child-task idref="t105"/>
+    <start-no-earlier-than>2017-05-25T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t21">
+    <title>服务端配置管理，框架开发</title>
+    <type>group</type>
+    <start-constraint-date>2017-05-25T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t107"/>
+    <child-task idref="t108"/>
+    <child-task idref="t109"/>
+    <prerequisite-task idref="t23"/>
+    <start-no-earlier-than>2017-05-25T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t22">
+    <title>单点登录功能开发</title>
+    <type>group</type>
+    <start-constraint-date>2017-05-25T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t49"/>
+    <child-task idref="t50"/>
+    <child-task idref="t51"/>
+    <child-task idref="t52"/>
+    <start-no-earlier-than>2017-05-25T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t23">
+    <title>租户管理页面框架开发</title>
+    <type>group</type>
+    <start-constraint-date>2017-05-25T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t54"/>
+    <child-task idref="t55"/>
+    <child-task idref="t56"/>
+    <child-task idref="t57"/>
+    <start-no-earlier-than>2017-05-25T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t24">
+    <title>统一管控平台开发</title>
+    <type>group</type>
+    <start-constraint-date>2017-05-25T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t172"/>
+    <child-task idref="t173"/>
+    <child-task idref="t174"/>
+    <child-task idref="t175"/>
+    <child-task idref="t176"/>
+    <child-task idref="t177"/>
+    <start-no-earlier-than>2017-05-25T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t25">
+    <title>租户资源使用情况监控页面开发</title>
+    <type>group</type>
+    <start-constraint-date>2017-05-25T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t58"/>
+    <child-task idref="t59"/>
+    <child-task idref="t60"/>
+    <child-task idref="t61"/>
+    <child-task idref="t62"/>
+    <child-task idref="t63"/>
+    <child-task idref="t64"/>
+    <child-task idref="t65"/>
+    <child-task idref="t66"/>
+    <child-task idref="t67"/>
+    <prerequisite-task idref="t22"/>
+    <start-no-earlier-than>2017-05-25T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t26">
+    <title>租户角色管理，分配页面开发</title>
+    <type>group</type>
+    <start-constraint-date>2017-05-25T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t69"/>
+    <child-task idref="t70"/>
+    <child-task idref="t71"/>
+    <start-no-earlier-than>2017-05-25T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t27">
+    <title>租户基本信息页面开发</title>
+    <type>group</type>
+    <start-constraint-date>2017-05-25T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t74"/>
+    <child-task idref="t75"/>
+    <prerequisite-task idref="t24"/>
+    <start-no-earlier-than>2017-05-25T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t29">
+    <title>角色管理页面开发</title>
+    <type>group</type>
+    <start-constraint-date>2017-05-25T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t90"/>
+    <child-task idref="t91"/>
+    <prerequisite-task idref="t30"/>
+    <start-no-earlier-than>2017-05-25T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t30">
+    <title>服务管理页面开发</title>
+    <type>group</type>
+    <start-constraint-date>2017-05-25T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t77"/>
+    <child-task idref="t78"/>
+    <child-task idref="t79"/>
+    <child-task idref="t80"/>
+    <child-task idref="t81"/>
+    <child-task idref="t82"/>
+    <child-task idref="t83"/>
+    <child-task idref="t84"/>
+    <child-task idref="t85"/>
+    <child-task idref="t86"/>
+    <child-task idref="t87"/>
+    <child-task idref="t88"/>
+    <child-task idref="t89"/>
+    <start-no-earlier-than>2017-05-25T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t32">
+    <title>提供REST API供信云智调用来获取服务列表</title>
+    <type>group</type>
+    <start-constraint-date>2017-05-25T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t164"/>
+    <child-task idref="t165"/>
+    <start-no-earlier-than>2017-05-25T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t33">
+    <title>提供REST API供信云智创建租户</title>
+    <type>group</type>
+    <start-constraint-date>2017-05-25T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t166"/>
+    <child-task idref="t167"/>
+    <prerequisite-task idref="t32"/>
+    <start-no-earlier-than>2017-05-25T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t34">
+    <title>提供REST API供信云智修改租户</title>
+    <type>group</type>
+    <start-constraint-date>2017-05-25T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t170"/>
+    <child-task idref="t171"/>
+    <prerequisite-task idref="t4"/>
+    <prerequisite-task idref="t162"/>
+    <start-no-earlier-than>2017-05-25T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t49">
+    <title>调用中信云用户中心登录认证接口</title>
+    <effort>57600</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r9"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t50">
+    <title>信云智控制台跳转到统一管控界面</title>
+    <effort>28800</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t49"/>
+    <assignment idref="r9"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t51">
+    <title>橘云多租户管理从统一管控平台无密码登录</title>
+    <effort>57600</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t50"/>
+    <assignment idref="r9"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t52">
+    <title>橘云Ambari运维平台从统一管控页面无密码登录</title>
+    <effort>57600</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t51"/>
+    <assignment idref="r9"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t54">
+    <title>租户管理页面顶级导航栏功能开发</title>
+    <effort>115200</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r16"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t55">
+    <title>租户管理页面前端开发框架准备</title>
+    <effort>57600</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t54"/>
+    <assignment idref="r16"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t56">
+    <title>登录页面开发</title>
+    <effort>86400</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t55"/>
+    <assignment idref="r16"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t57">
+    <title>与单点登录服务的集成</title>
+    <effort>28800</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t56"/>
+    <assignment idref="r16"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t58">
+    <title>租户级的HDFS资源使用信息获取</title>
+    <effort>57600</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r9"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t59">
+    <title>租户级的YARN资源使用信息获取</title>
+    <effort>28800</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t58"/>
+    <assignment idref="r9"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t60">
+    <title>租户级的Hive资源使用信息获取</title>
+    <effort>57600</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t59"/>
+    <assignment idref="r9"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t61">
+    <title>租户级的HBase资源使用信息获取</title>
+    <effort>28800</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t60"/>
+    <assignment idref="r9"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t62">
+    <title>租户级的Kafka资源使用信息获取</title>
+    <effort>57600</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t61"/>
+    <assignment idref="r9"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t63">
+    <title>租户级的Oracle资源使用信息获取</title>
+    <effort>28800</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t62"/>
+    <assignment idref="r9"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t64">
+    <title>租户级的GreenPlum 资源使用信息获取</title>
+    <effort>57600</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t63"/>
+    <assignment idref="r9"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t65">
+    <title>租户级的MongoDB资源使用信息获取</title>
+    <effort>28800</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t64"/>
+    <assignment idref="r9"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t66">
+    <title>租户级的Neo4j资源使用信息获取</title>
+    <effort>57600</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t65"/>
+    <assignment idref="r9"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t67">
+    <title>租户级的RabbitMQ资源使用信息获取</title>
+    <effort>28800</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t66"/>
+    <assignment idref="r9"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t69">
+    <title>租户用户列表页面开发</title>
+    <effort>115200</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r11"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t70">
+    <title>租户授权页面开发</title>
+    <effort>115200</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t69"/>
+    <assignment idref="r11"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t71">
+    <title>租户授权时获取云用户中心用户列表功能开发</title>
+    <effort>57600</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t70"/>
+    <assignment idref="r11"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t74">
+    <title>租户基本信息展示</title>
+    <effort>86400</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t75">
+    <title>租户包涵的服务展示</title>
+    <effort>86400</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t74"/>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t77">
+    <title>服务列表页面开发</title>
+    <effort>115200</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r12"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t78">
+    <title>服务列表页面与后端集成</title>
+    <effort>28800</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t77"/>
+    <assignment idref="r12"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t79">
+    <title>服务添加页面框架开发</title>
+    <effort>28800</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t78"/>
+    <assignment idref="r12"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t80">
+    <title>HDFS服务添加页面增强</title>
+    <effort>28800</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t79"/>
+    <assignment idref="r12"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t81">
+    <title>YARN服务添加页面增强</title>
+    <effort>28800</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t80"/>
+    <assignment idref="r12"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t82">
+    <title>Hive服务添加页面增强</title>
+    <effort>28800</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t81"/>
+    <assignment idref="r12"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t83">
+    <title>HBase服务添加页面增强</title>
+    <effort>28800</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t82"/>
+    <assignment idref="r12"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t84">
+    <title>Kafka服务添加页面增强</title>
+    <effort>28800</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t83"/>
+    <assignment idref="r12"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t85">
+    <title>Oracle服务添加页面增强</title>
+    <effort>28800</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t84"/>
+    <assignment idref="r12"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t86">
+    <title>GreenPlum服务添加页面增强</title>
+    <effort>28800</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t85"/>
+    <assignment idref="r12"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t87">
+    <title>MongoDB服务添加页面增强</title>
+    <effort>28800</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t86"/>
+    <assignment idref="r12"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t88">
+    <title>Neo4j服务添加页面增强</title>
+    <effort>28800</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t87"/>
+    <assignment idref="r12"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t89">
+    <title>RabbitMQ服务添加页面增强</title>
+    <effort>28800</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t88"/>
+    <assignment idref="r12"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t90">
+    <title>角色列表页面开发</title>
+    <effort>86400</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r12"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t91">
+    <title>角色列表获取API调用</title>
+    <effort>57600</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t90"/>
+    <assignment idref="r12"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t92">
+    <title>服务和服务实例接口定义</title>
+    <effort>57600</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r3"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t93">
+    <title>服务和服务实例接口开发</title>
+    <effort>28800</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t92"/>
+    <assignment idref="r3"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t94">
+    <title>服务管理功能开发</title>
+    <effort>86400</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t93"/>
+    <assignment idref="r3"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t95">
+    <title>服务实例管理功能开发</title>
+    <effort>115200</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t94"/>
+    <assignment idref="r3"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t97">
+    <title>三种角色控制框架设计</title>
+    <effort>86400</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r14"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t98">
+    <title>系统管理员权限控制功能开发</title>
+    <effort>86400</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t97"/>
+    <assignment idref="r14"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t99">
+    <title>项目管理员权限控制功能开发</title>
+    <effort>57600</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t98"/>
+    <assignment idref="r14"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t100">
+    <title>普通用户权限控制功能开发</title>
+    <effort>57600</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t99"/>
+    <assignment idref="r14"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t101">
+    <title>租户接口设计</title>
+    <effort>86400</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t102">
+    <title>租户接口实现</title>
+    <effort>86400</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t101"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t103">
+    <title>租户查询</title>
+    <effort>28800</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t102"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t104">
+    <title>租户创建</title>
+    <effort>115200</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t103"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t105">
+    <title>租户修改</title>
+    <effort>115200</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t104"/>
+    <assignment idref="r4"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t107">
+    <title>服务端Web服务器准备</title>
+    <effort>86400</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r16"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t108">
+    <title>服务端开发框架准备</title>
+    <effort>115200</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t107"/>
+    <assignment idref="r16"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t109">
+    <title>服务端代码组织结构设计</title>
+    <effort>86400</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t108"/>
+    <assignment idref="r16"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t111">
+    <title>HDFS服务功能开发</title>
+    <effort>115200</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t112">
+    <title>HDFS服务实例功能开发</title>
+    <effort>115200</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t111"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t113">
+    <title>HDFS服务REST API实现</title>
+    <effort>57600</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t112"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t114">
+    <title>YARN服务功能开发</title>
+    <effort>115200</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t115">
+    <title>YARN服务实例功能开发</title>
+    <effort>115200</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t114"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t116">
+    <title>YARN服务REST API实现</title>
+    <effort>57600</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t115"/>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t117">
+    <title>HBase服务功能开发</title>
+    <effort>115200</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r2"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t118">
+    <title>HBase服务实例功能开发</title>
+    <effort>115200</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t117"/>
+    <assignment idref="r2"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t119">
+    <title>HBase服务REST API开发</title>
+    <effort>57600</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t118"/>
+    <assignment idref="r2"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t120">
+    <title>Hive服务功能开发</title>
+    <effort>115200</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r2"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t121">
+    <title>Hive服务实例功能开发</title>
+    <effort>115200</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t120"/>
+    <assignment idref="r2"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t122">
+    <title>Hive服务REST API实现</title>
+    <effort>57600</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t121"/>
+    <assignment idref="r2"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t123">
+    <title>Kafka服务功能开发</title>
+    <effort>115200</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r3"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t124">
+    <title>Kafka服务实例功能开发</title>
+    <effort>115200</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t123"/>
+    <assignment idref="r3"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t125">
+    <title>Kafka服务REST API实现</title>
+    <effort>57600</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t124"/>
+    <assignment idref="r3"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t126">
+    <title>Oracle服务功能开发</title>
+    <effort>115200</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t131"/>
+    <assignment idref="r13"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t127">
+    <title>Oracle服务实例功能开发</title>
+    <effort>115200</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t126"/>
+    <assignment idref="r13"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t128">
+    <title>Oracle服务REST API实现</title>
+    <effort>57600</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t127"/>
+    <assignment idref="r13"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t130">
+    <title>Oracle服务功能调研</title>
+    <effort>115200</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r13"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t131">
+    <title>Oracle服务实例功能调研</title>
+    <effort>115200</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t130"/>
+    <assignment idref="r13"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t132">
+    <title>Oracle服务功能集成</title>
+    <effort>57600</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t128"/>
+    <assignment idref="r13"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t133">
+    <title>GreenPlum服务功能调研</title>
+    <effort>115200</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r7"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t134">
+    <title>GreenPlum 服务实例功能调研</title>
+    <effort>115200</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t133"/>
+    <assignment idref="r7"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t135">
+    <title>GreenPlum服务功能开发</title>
+    <effort>115200</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t134"/>
+    <assignment idref="r7"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t136">
+    <title>GreenPlum 服务实例功能开发</title>
+    <effort>115200</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t135"/>
+    <assignment idref="r7"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t137">
+    <title>GreenPlum 服务REST API实现</title>
+    <effort>57600</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t136"/>
+    <assignment idref="r7"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t138">
+    <title>GreenPlum服务功能集成</title>
+    <effort>57600</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t137"/>
+    <assignment idref="r7"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t141">
+    <title>MongoDB服务功能调研</title>
+    <effort>115200</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r8"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t142">
+    <title>MongoDB服务实例功能调研</title>
+    <effort>115200</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t141"/>
+    <assignment idref="r8"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t143">
+    <title>MongoDB服务功能开发</title>
+    <effort>115200</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t142"/>
+    <assignment idref="r8"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t144">
+    <title>MongoDB服务实例功能开发</title>
+    <effort>115200</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t143"/>
+    <assignment idref="r8"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t145">
+    <title>MongoDB服务REST API实现</title>
+    <effort>57600</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t144"/>
+    <assignment idref="r8"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t146">
+    <title>MongoDB服务功能集成</title>
+    <effort>57600</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t145"/>
+    <assignment idref="r8"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t147">
+    <title>Neo4j服务功能调研</title>
+    <effort>115200</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r5"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t148">
+    <title>Neo4j服务实例功能调研</title>
+    <effort>115200</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t147"/>
+    <assignment idref="r5"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t149">
+    <title>Neo4j服务功能开发</title>
+    <effort>115200</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t148"/>
+    <assignment idref="r5"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t150">
+    <title>Neo4j服务实例功能开发</title>
+    <effort>115200</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t149"/>
+    <assignment idref="r5"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t151">
+    <title>Neo4j服务REST API实现</title>
+    <effort>57600</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t150"/>
+    <assignment idref="r5"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t152">
+    <title> Neo4j服务功能集成</title>
+    <effort>57600</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t151"/>
+    <assignment idref="r5"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t153">
+    <title>RabbitMQ服务功能调研</title>
+    <effort>115200</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r6"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t154">
+    <title>RabbitMQ服务实例功能调研</title>
+    <effort>115200</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t153"/>
+    <assignment idref="r6"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t156">
+    <title>RabbitMQ服务功能开发</title>
+    <effort>115200</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t154"/>
+    <assignment idref="r6"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t157">
+    <title>RabbitMQ服务实例功能开发</title>
+    <effort>115200</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t156"/>
+    <assignment idref="r6"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t158">
+    <title>RabbitMQ服务RSET API实现</title>
+    <effort>57600</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t157"/>
+    <assignment idref="r6"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t159">
+    <title>RabbitMQ服务功能集成</title>
+    <effort>57600</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t158"/>
+    <assignment idref="r6"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t160">
+    <title>与DACP调用接口沟通</title>
+    <effort>28800</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r15"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t161">
+    <title>DACP接口调用</title>
+    <effort>115200</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t160"/>
+    <assignment idref="r15"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t162">
+    <title>提供REST API供信云智查询租户</title>
+    <type>group</type>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t168"/>
+    <child-task idref="t169"/>
+    <prerequisite-task idref="t33"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t164">
+    <title>REST API接口设计</title>
+    <effort>57600</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r17"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t165">
+    <title>REST API实现</title>
+    <effort>86400</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t164"/>
+    <assignment idref="r17"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t166">
+    <title>REST API接口设计</title>
+    <effort>57600</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r17"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t167">
+    <title>REST API实现</title>
+    <effort>86400</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t166"/>
+    <assignment idref="r17"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t168">
+    <title>REST API接口设计</title>
+    <effort>57600</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r17"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t169">
+    <title>REST API实现</title>
+    <effort>86400</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t168"/>
+    <assignment idref="r17"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t170">
+    <title>REST API接口设计</title>
+    <effort>57600</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r17"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t171">
+    <title>REST API实现</title>
+    <effort>86400</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t170"/>
+    <assignment idref="r17"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t172">
+    <title>统一管控平台页面设计</title>
+    <effort>86400</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t173">
+    <title>统一管控平台页面开发</title>
+    <effort>115200</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t172"/>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t174">
+    <title>多租户平台管理页面接入</title>
+    <effort>57600</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t173"/>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t175">
+    <title>运维管理平台页面接入</title>
+    <effort>28800</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t174"/>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t176">
+    <title>第三方服务运维平台梳理</title>
+    <effort>57600</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t175"/>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t177">
+    <title>第三方服务运维平台接入</title>
+    <effort>86400</effort>
+    <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t176"/>
+    <assignment idref="r10"/>
+    <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <critical-path root="-1" enabled="false" resources="false">
+    <color r="1" g="0.5" b="0.5"/>
+  </critical-path>
+</scenario>
