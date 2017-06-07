@@ -65,6 +65,7 @@
     <child-resource idref="r14"/>
     <child-resource idref="r15"/>
     <child-resource idref="r17"/>
+    <child-resource idref="r19"/>
   </resource>
   <resource id="r1">
     <name>郭茜</name>
@@ -134,6 +135,10 @@
     <name>现场研发4</name>
     <type>Staff</type>
   </resource>
+  <resource id="r19">
+    <name>资源 1</name>
+    <type>Staff</type>
+  </resource>
   <top-task idref="t-1"/>
   <task id="t-1">
     <type>group</type>
@@ -142,6 +147,8 @@
     <child-task idref="t1"/>
     <child-task idref="t4"/>
     <child-task idref="t5"/>
+    <child-task idref="t178"/>
+    <child-task idref="t196"/>
   </task>
   <task id="t1">
     <title>服务适配器开发</title>
@@ -799,7 +806,7 @@
     <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t97">
-    <title>三种角色控制框架设计</title>
+    <title>四种角色控制框架设计</title>
     <effort>86400</effort>
     <start-constraint-date>2017-05-26T00:00:00.000Z</start-constraint-date>
     <assignment idref="r14"/>
@@ -1371,6 +1378,165 @@
     <prerequisite-task idref="t176"/>
     <assignment idref="r10"/>
     <start-no-earlier-than>2017-05-26T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t178">
+    <title>需求变更任务</title>
+    <type>group</type>
+    <start-constraint-date>2017-06-06T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t179"/>
+    <child-task idref="t180"/>
+    <child-task idref="t181"/>
+    <child-task idref="t182"/>
+    <child-task idref="t183"/>
+    <start-no-earlier-than>2017-06-06T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t179">
+    <title>中信云访问资源报告页面</title>
+    <type>group</type>
+    <start-constraint-date>2017-06-06T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t185"/>
+    <child-task idref="t186"/>
+    <start-no-earlier-than>2017-06-06T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t180">
+    <title>用户授权完成发邮件</title>
+    <type>group</type>
+    <start-constraint-date>2017-06-06T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t189"/>
+    <child-task idref="t190"/>
+    <child-task idref="t191"/>
+    <prerequisite-task idref="t179"/>
+    <start-no-earlier-than>2017-06-06T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t181">
+    <title>子公司用户权限控制</title>
+    <effort>86400</effort>
+    <start-constraint-date>2017-06-06T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t180"/>
+    <start-no-earlier-than>2017-06-06T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t182">
+    <title>子公司资源报告</title>
+    <effort>86400</effort>
+    <start-constraint-date>2017-06-07T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t181"/>
+    <start-no-earlier-than>2017-06-07T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t183">
+    <title>集团资源报告</title>
+    <effort>86400</effort>
+    <start-constraint-date>2017-06-07T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t182"/>
+    <start-no-earlier-than>2017-06-07T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t185">
+    <title>资源报告页面可定制化，根据服务实例ID来动态展示</title>
+    <effort>86400</effort>
+    <start-constraint-date>2017-06-07T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-06-07T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t186">
+    <title>中信云中嵌入资源报告页面</title>
+    <effort>57600</effort>
+    <start-constraint-date>2017-06-07T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t185"/>
+    <start-no-earlier-than>2017-06-07T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t189">
+    <title>配置邮件服务器信息，后台配置</title>
+    <effort>28800</effort>
+    <start-constraint-date>2017-06-07T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-06-07T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t190">
+    <title>发送邮件功能开发，启动一个线程后台运行</title>
+    <effort>86400</effort>
+    <start-constraint-date>2017-06-07T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t189"/>
+    <start-no-earlier-than>2017-06-07T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t191">
+    <title>授权完成触发邮件发送</title>
+    <effort>57600</effort>
+    <start-constraint-date>2017-06-07T00:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t190"/>
+    <start-no-earlier-than>2017-06-07T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t192">
+    <title>需求分析</title>
+    <type>group</type>
+    <start-constraint-date>2017-06-07T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t197"/>
+    <child-task idref="t198"/>
+    <start-no-earlier-than>2017-06-07T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t193">
+    <title>架构设计</title>
+    <type>group</type>
+    <start-constraint-date>2017-06-07T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t199"/>
+    <child-task idref="t200"/>
+    <child-task idref="t201"/>
+    <child-task idref="t202"/>
+    <start-no-earlier-than>2017-06-07T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t194">
+    <title>工作计划编写</title>
+    <effort>144000</effort>
+    <start-constraint-date>2017-06-07T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-06-07T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t195">
+    <title>项目沟通协调</title>
+    <effort>576000</effort>
+    <start-constraint-date>2017-06-07T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-06-07T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t196">
+    <title>其它</title>
+    <type>group</type>
+    <start-constraint-date>2017-06-07T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t192"/>
+    <child-task idref="t193"/>
+    <child-task idref="t194"/>
+    <child-task idref="t195"/>
+    <start-no-earlier-than>2017-06-07T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t197">
+    <title>客户需求理解，前期准备</title>
+    <effort>115200</effort>
+    <start-constraint-date>2017-06-07T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-06-07T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t198">
+    <title>需求讨论，分析</title>
+    <effort>86400</effort>
+    <start-constraint-date>2017-06-07T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-06-07T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t199">
+    <title>租户模型设计</title>
+    <effort>115200</effort>
+    <start-constraint-date>2017-06-07T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-06-07T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t200">
+    <title>架构设计</title>
+    <effort>115200</effort>
+    <start-constraint-date>2017-06-07T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-06-07T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t201">
+    <title>前端页面原型开发</title>
+    <effort>432000</effort>
+    <start-constraint-date>2017-06-07T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-06-07T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t202">
+    <title>实现方案论证</title>
+    <effort>144000</effort>
+    <start-constraint-date>2017-06-07T00:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-06-07T00:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>

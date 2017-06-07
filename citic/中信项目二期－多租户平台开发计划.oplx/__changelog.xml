@@ -1,19 +1,136 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
   <version>2.1</version>
-  <resource-change-set user="wangdong" date="2017-05-31T08:14:57.490Z" timestamp="2017-05-31T08:14:57.490Z">
-    <change idref="r1" attribute="name" type="string" from="OCDP研发1" to="郭茜" resolved="yes"/>
-    <change idref="r2" attribute="name" type="string" from="OCDP研发2" to="王琛" resolved="yes"/>
-    <change idref="r3" attribute="name" type="string" from="OCDP研发3" to="白凯" resolved="yes"/>
-    <change idref="r4" attribute="name" type="string" from="OCDP研发4" to="赵一鸣" resolved="yes"/>
-    <change idref="r5" attribute="name" type="string" from="" to="刘旭" resolved="yes"/>
-    <change idref="r6" attribute="name" type="string" from="OCDF研发2" to="柴宗三" resolved="yes"/>
-    <change idref="r7" attribute="name" type="string" from="OCDF研发3" to="袁伟明" resolved="yes"/>
-    <change idref="r8" attribute="name" type="string" from="OCDF研发4" to="柴宗三" resolved="yes"/>
-    <change idref="r9" attribute="name" type="string" from="橘云北京研发1" to="江彤" resolved="yes"/>
-    <change idref="r10" attribute="name" type="string" from="橘云北京研发2" to="敬晓阳" resolved="yes"/>
-    <change idref="r11" attribute="name" type="string" from="橘云北京研发3" to="张宁" resolved="yes"/>
-    <change idref="r12" attribute="name" type="string" from="橘云北京研发4" to="贾双喜" resolved="yes"/>
-    <change idref="r16" attribute="name" type="string" from="OCDP研发5" to="虞里杉" resolved="yes"/>
+  <task-change-set user="wangdong" date="2017-06-06T16:29:39.494Z" timestamp="2017-06-06T16:29:39.494Z">
+    <change idref="t178" to="t-1" to-position="5" resolved="yes">
+      <change idref="t178" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t178" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-06T00:00:00.000Z"/>
+      <change idref="t178" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t178" attribute="title" type="string" to="需求变更任务"/>
+    </change>
+    <change idref="t97" attribute="title" type="string" from="三种角色控制框架设计" to="四种角色控制框架设计" resolved="yes"/>
+    <change idref="t179" to="t178" to-position="0" resolved="yes">
+      <change idref="t179" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t179" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-06T00:00:00.000Z"/>
+      <change idref="t179" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t179" attribute="title" type="string" to="中信云访问资源报告页面"/>
+    </change>
+    <change idref="t180" to="t178" to-position="1" resolved="yes">
+      <change idref="t180" attribute="internalPrerequisitesString" type="string" to="179FS"/>
+      <change idref="t180" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t180" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-06T00:00:00.000Z"/>
+      <change idref="t180" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t180" attribute="title" type="string" to="用户授权完成发邮件"/>
+    </change>
+    <change idref="t181" to="t178" to-position="2" resolved="yes">
+      <change idref="t181" attribute="effort" type="real" from="28800" to="86400"/>
+      <change idref="t181" attribute="internalPrerequisitesString" type="string" to="180FS"/>
+      <change idref="t181" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-06T00:00:00.000Z"/>
+      <change idref="t181" attribute="title" type="string" to="子公司用户权限控制"/>
+    </change>
+    <change idref="t182" to="t178" to-position="3" resolved="yes">
+      <change idref="t182" attribute="effort" type="real" from="28800" to="86400"/>
+      <change idref="t182" attribute="internalPrerequisitesString" type="string" to="181FS"/>
+      <change idref="t182" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-07T00:00:00.000Z"/>
+      <change idref="t182" attribute="title" type="string" to="子公司资源报告"/>
+    </change>
+    <change idref="t183" to="t178" to-position="4" resolved="yes">
+      <change idref="t183" attribute="effort" type="real" from="28800" to="86400"/>
+      <change idref="t183" attribute="internalPrerequisitesString" type="string" to="182FS"/>
+      <change idref="t183" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-07T00:00:00.000Z"/>
+      <change idref="t183" attribute="title" type="string" to="集团资源报告"/>
+    </change>
+    <change idref="t185" to="t179" to-position="0" resolved="yes">
+      <change idref="t185" attribute="effort" type="real" from="28800" to="86400"/>
+      <change idref="t185" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-07T00:00:00.000Z"/>
+      <change idref="t185" attribute="title" type="string" to="资源报告页面可定制化，根据服务实例ID来动态展示"/>
+    </change>
+    <change idref="t186" to="t179" to-position="1" resolved="yes">
+      <change idref="t186" attribute="effort" type="real" from="28800" to="57600"/>
+      <change idref="t186" attribute="internalPrerequisitesString" type="string" to="185FS"/>
+      <change idref="t186" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-07T00:00:00.000Z"/>
+      <change idref="t186" attribute="title" type="string" to="中信云中嵌入资源报告页面"/>
+    </change>
+    <change idref="t189" to="t180" to-position="0" resolved="yes">
+      <change idref="t189" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-07T00:00:00.000Z"/>
+      <change idref="t189" attribute="title" type="string" to="配置邮件服务器信息，后台配置"/>
+    </change>
+    <change idref="t190" to="t180" to-position="1" resolved="yes">
+      <change idref="t190" attribute="effort" type="real" from="28800" to="86400"/>
+      <change idref="t190" attribute="internalPrerequisitesString" type="string" to="189FS"/>
+      <change idref="t190" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-07T00:00:00.000Z"/>
+      <change idref="t190" attribute="title" type="string" to="发送邮件功能开发，启动一个线程后台运行"/>
+    </change>
+    <change idref="t191" to="t180" to-position="2" resolved="yes">
+      <change idref="t191" attribute="effort" type="real" from="28800" to="57600"/>
+      <change idref="t191" attribute="internalPrerequisitesString" type="string" to="190FS"/>
+      <change idref="t191" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-07T00:00:00.000Z"/>
+      <change idref="t191" attribute="title" type="string" to="授权完成触发邮件发送"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="wangdong" date="2017-06-06T16:35:31.691Z" timestamp="2017-06-06T16:35:31.691Z">
+    <change idref="t196" to="t-1" to-position="6" resolved="yes">
+      <change idref="t196" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t196" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-07T00:00:00.000Z"/>
+      <change idref="t196" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t196" attribute="title" type="string" to="其它"/>
+    </change>
+    <change idref="t199" to="t193" to-position="0" resolved="yes">
+      <change idref="t199" attribute="effort" type="real" from="28800" to="115200"/>
+      <change idref="t199" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-07T00:00:00.000Z"/>
+      <change idref="t199" attribute="title" type="string" to="租户模型设计"/>
+    </change>
+    <change idref="t200" to="t193" to-position="1" resolved="yes">
+      <change idref="t200" attribute="effort" type="real" from="28800" to="115200"/>
+      <change idref="t200" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-07T00:00:00.000Z"/>
+      <change idref="t200" attribute="title" type="string" to="架构设计"/>
+    </change>
+    <change idref="t201" to="t193" to-position="2" resolved="yes">
+      <change idref="t201" attribute="effort" type="real" from="28800" to="432000"/>
+      <change idref="t201" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-07T00:00:00.000Z"/>
+      <change idref="t201" attribute="title" type="string" to="前端页面原型开发"/>
+    </change>
+    <change idref="t202" to="t193" to-position="3" resolved="yes">
+      <change idref="t202" attribute="effort" type="real" from="28800" to="144000"/>
+      <change idref="t202" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-07T00:00:00.000Z"/>
+      <change idref="t202" attribute="title" type="string" to="实现方案论证"/>
+    </change>
+    <change idref="t192" to="t196" to-position="0" resolved="yes">
+      <change idref="t192" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t192" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-07T00:00:00.000Z"/>
+      <change idref="t192" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t192" attribute="title" type="string" to="需求分析"/>
+    </change>
+    <change idref="t193" to="t196" to-position="1" resolved="yes">
+      <change idref="t193" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t193" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-07T00:00:00.000Z"/>
+      <change idref="t193" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t193" attribute="title" type="string" to="架构设计"/>
+    </change>
+    <change idref="t194" to="t196" to-position="2" resolved="yes">
+      <change idref="t194" attribute="effort" type="real" from="28800" to="144000"/>
+      <change idref="t194" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-07T00:00:00.000Z"/>
+      <change idref="t194" attribute="title" type="string" to="工作计划编写"/>
+    </change>
+    <change idref="t195" to="t196" to-position="3" resolved="yes">
+      <change idref="t195" attribute="effort" type="real" from="28800" to="576000"/>
+      <change idref="t195" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-07T00:00:00.000Z"/>
+      <change idref="t195" attribute="title" type="string" to="项目沟通协调"/>
+    </change>
+    <change idref="t197" to="t192" to-position="0" resolved="yes">
+      <change idref="t197" attribute="effort" type="real" from="28800" to="115200"/>
+      <change idref="t197" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-07T00:00:00.000Z"/>
+      <change idref="t197" attribute="title" type="string" to="客户需求理解，前期准备"/>
+    </change>
+    <change idref="t198" to="t192" to-position="1" resolved="yes">
+      <change idref="t198" attribute="effort" type="real" from="28800" to="86400"/>
+      <change idref="t198" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-07T00:00:00.000Z"/>
+      <change idref="t198" attribute="title" type="string" to="需求讨论，分析"/>
+    </change>
+  </task-change-set>
+  <resource-change-set user="wangdong" date="2017-06-06T16:29:39.489Z" timestamp="2017-06-06T16:29:39.489Z">
+    <change idref="r19" to="r-1" to-position="17" resolved="yes">
+      <change idref="r19" attribute="name" type="string" to="资源 1"/>
+    </change>
   </resource-change-set>
 </changelog>

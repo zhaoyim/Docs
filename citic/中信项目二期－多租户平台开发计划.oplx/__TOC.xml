@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="0" y="67" w="1280" h="710">
+  <window x="0" y="38" w="1280" h="739">
     <editing-scenario>bZEZ7i0x117</editing-scenario>
     <comparison-scenario>mAjS7kTngGb</comparison-scenario>
-    <view>resource</view>
+    <view>task</view>
     <change-tracking/>
     <draw-folded/>
-    <status-display>basic</status-display>
+    <status-display>extended-alternate</status-display>
     <task-view>
       <split-view-divider-position>532</split-view-divider-position>
-      <outline x="0" y="0" w="532" h="389">
+      <outline x="0" y="0" w="532" h="617">
         <column name="Violations" width="20"/>
         <column name="Notes" width="20"/>
         <column name="Title" width="404"/>
         <column name="Effort" width="64"/>
-        <expanded-items idrefs="t9 t13 t34 t26 t30 t22 t14 t27 t10 t162 t23 t15 t6 t32 t16 t24 t29 t7 t12 t33 t8 t25"/>
+        <expanded-items idrefs="t17 t9 t13 t34 t192 t14 t10 t162 t15 t193 t32 t6 t16 t180 t7 t196 t12 t33 t8 t179"/>
+        <selected-items-at-filter-time idrefs="t194 t183 t199 t188 t204 t192 t181 t197 t186 t202 t190 t195 t184 t200 t189 t205 t178 t193 t182 t198 t187 t203 t191 t180 t196 t185 t201 t179"/>
       </outline>
-      <gantt-view x="41" y="0" w="267" h="389">
+      <gantt-view x="216" y="0" w="747" h="617">
         <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -63,14 +64,14 @@
     </task-view>
     <resource-view>
       <split-view-divider-position>306</split-view-divider-position>
-      <outline x="0" y="0" w="306" h="588">
+      <outline x="0" y="0" w="306" h="617">
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
         <column name="Resource" width="135"/>
         <column name="#" width="75"/>
-        <selected-items-at-filter-time idrefs="r7 r17 r12 r3 r8 r15 r10 r4 r18 r13 r9 r5 r16 r11 r6 r14 r2"/>
+        <selected-items-at-filter-time idrefs="r7 r17 r12 r3 r8 r15 r10 r4 r9 r13 r5 r16 r11 r6 r19 r14 r2"/>
       </outline>
-      <timeline x="373" y="0" w="945" h="588">
+      <timeline x="481" y="0" w="945" h="617">
         <offtime-display>none</offtime-display>
         <show-project-end/>
         <task-bar-label task-type="group" position="left">
@@ -114,7 +115,7 @@
     </resource-view>
     <calendar>
       <split-view-divider-position>290</split-view-divider-position>
-      <outline x="0" y="0" w="290" h="473">
+      <outline x="0" y="0" w="290" h="553">
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
         <column name="Resource" width="139"/>
@@ -124,8 +125,8 @@
     </calendar>
   </window>
   <project>
-    <next-task-id>178</next-task-id>
-    <next-resource-id>19</next-resource-id>
+    <next-task-id>206</next-task-id>
+    <next-resource-id>20</next-resource-id>
     <scenario id="bZEZ7i0x117" name="Actual" filename="Actual.xml"/>
     <scenario id="mAjS7kTngGb" name="基线 17/6/1" filename="mAjS7kTngGb.xml"/>
     <date-display dates="true" times="true" seconds="false"/>
