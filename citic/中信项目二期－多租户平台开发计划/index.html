@@ -1,0 +1,515 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+    <html>
+	<head>
+		<title>
+			中信项目二期－多租户平台开发计划
+		</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<style type="text/css">
+/* general stuff */
+body 
+{
+    text-align: left;
+    font-family: "helvetica", sans-serif;
+    font-size: 11pt;
+}
+
+a:link
+{
+    color: #0057cb;
+    text-decoration: none;
+}
+
+a:visited
+{
+    color: #00449e;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #0057cb;
+    text-decoration: underline;
+}
+
+h1 
+{
+    text-align: center;
+    font-size: 20pt;
+}
+
+/* index sections */
+h2.section-head-open
+{
+    font-size: 14pt;
+    margin-bottom: 0pt;
+    padding: 4pt;
+    background-color: #e6edff;
+    border-bottom: none;
+    border-top: 1pt solid #888888;
+    border-left: 1pt solid #888888;
+    border-right: 1pt solid #888888;
+}
+
+.section-body
+{
+    margin-top: 0pt;
+    border-bottom: 1pt solid #888888;
+    border-left: 1pt solid #888888;
+    border-right: 1pt solid #888888;
+    overflow: auto;
+}
+
+.section-content
+{
+    padding: 8pt;
+}
+
+table.chunks
+{
+    border-collapse: collapse;
+}
+
+.chunks td
+{
+    text-align: center;
+    padding-left: 8pt;
+    padding-right: 8pt;
+    padding-top: 0pt;
+    padding-bottom: 0pt;
+    width: 10%;
+}
+
+.data-label
+{
+    font-weight: bold;
+    color: #333333;
+}
+
+.data-content-huge
+{
+    font-size: 
+    font-weight: bold;
+    color: #666666;
+}
+
+.data-content-big
+{
+    font-size: 24pt;
+    font-weight: bold;
+    color: #666666;
+    vertical-align: top;
+}
+
+.data-content-small
+{
+    font-size: 11pt;
+    font-weight: bold;
+    color: #666666;
+}
+
+/* for escaping from floats */
+div.clearer
+{
+    clear: both;
+}
+
+/* normal data table */
+table.basic
+{
+    border-collapse: collapse;
+    font-size: 9pt;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.basic td
+{
+    border: 1pt solid #bfbfbf;
+    padding-top: 4pt;
+    padding-bottom: 4pt;
+    padding-left: 8pt;
+    padding-right: 8pt;
+}
+
+td.wrap
+{
+    word-wrap: break-word;
+}
+
+td.header 
+{
+    background-color: #bfbfbf;
+    font-weight: bold;
+}
+
+td.level1 
+{
+    padding-left: 10pt;
+}
+
+td.level2 
+{
+    padding-left: 20pt;
+}
+
+td.date 
+{
+    text-align: right;
+}
+
+td.duration 
+{
+    text-align: right;
+}
+
+tr.resource td
+{
+    font-weight: bold;
+}
+
+tr.taskTypeGroup td
+{
+    font-weight: bold;
+}
+
+p.unregistered 
+{
+    text-align: left;
+    font-size: 12pt;
+    color: #333333;
+    border-top: 1pt solid #999999;
+}
+
+p.footer 
+{
+    text-align: center;
+    font-size: 8pt;
+    color: #333333;
+}
+
+ul.report-links
+{
+    margin: 0pt;
+    padding: 4pt;
+    
+    list-style-type: none;
+    line-height: 12pt;
+}
+
+.report-links li
+{
+    display: inline;
+    padding-left: 24pt;
+}
+
+img.small-icon
+{
+    width: 16px;
+    height: 16px;
+    margin-left: 0pt;
+    margin-top: 0pt;
+    margin-bottom: 0pt;
+    margin-right: 2pt;
+    vertical-align: middle;
+    border: none;
+}
+
+img.icon
+{
+    width: 32px;
+    height: 32px;
+    margin-left: 0pt;
+    margin-top: 0pt;
+    margin-bottom: 2pt;
+    margin-right: 0pt;
+    vertical-align: middle;
+    border: none;
+}
+</style>
+	</head>
+	<body>
+		<h1>
+			项目报告：中信项目二期－多租户平台开发计划
+		</h1>
+		<h2 class="section-head-open">
+			项目状态
+		</h2>
+		<div class="section-body">
+            <div class="section-content" id="status-content">
+                <table class="chunks">
+                    <tr>
+<td class="data-label">开始日期：</td>
+<td class="data-label">结束日期：</td>
+<td class="data-label">差异：</td>
+<td class="data-label">成本：</td>
+<td class="data-label">完成情况：</td>
+                    </tr>
+                    <tr>
+<td class="data-content-big">17/5/24 上午8:00</td>
+<td class="data-content-big">17/6/30 下午5:00</td>
+<td class="data-content-big">2 天</td>
+<td class="data-content-big"></td>
+<td class="data-content-big">0%</td>
+                    </tr>
+                </table>
+            </div>
+		</div>
+		<h2 class="section-head-open">
+			详细报告
+		</h2>
+		<div class="section-body">
+            <div class="section-content" id="info-content">
+                <table class="chunks">
+                    <tr>
+<td><a href="%E4%B8%AD%E4%BF%A1%E9%A1%B9%E7%9B%AE%E4%BA%8C%E6%9C%9F%EF%BC%8D%E5%A4%9A%E7%A7%9F%E6%88%B7%E5%B9%B3%E5%8F%B0%E5%BC%80%E5%8F%91%E8%AE%A1%E5%88%92.html"><img class="icon" src="include/tasks.png" alt="任务" /><br />任务报告</a></td>
+<td><a href="%E4%B8%AD%E4%BF%A1%E9%A1%B9%E7%9B%AE%E4%BA%8C%E6%9C%9F%EF%BC%8D%E5%A4%9A%E7%A7%9F%E6%88%B7%E5%B9%B3%E5%8F%B0%E5%BC%80%E5%8F%91%E8%AE%A1%E5%88%92Resources.html"><img class="icon" src="include/resource.png" alt="资源" /><br />资源报告</a></td>
+<td><a href="%E4%B8%AD%E4%BF%A1%E9%A1%B9%E7%9B%AE%E4%BA%8C%E6%9C%9F%EF%BC%8D%E5%A4%9A%E7%A7%9F%E6%88%B7%E5%B9%B3%E5%8F%B0%E5%BC%80%E5%8F%91%E8%AE%A1%E5%88%92Gantt.html"><img class="icon" src="include/gantt.png" alt="甘特" /><br />甘特图</a></td>
+			<td><a href="%E4%B8%AD%E4%BF%A1%E9%A1%B9%E7%9B%AE%E4%BA%8C%E6%9C%9F%EF%BC%8D%E5%A4%9A%E7%A7%9F%E6%88%B7%E5%B9%B3%E5%8F%B0%E5%BC%80%E5%8F%91%E8%AE%A1%E5%88%92Timeline.html"><img class="icon" src="include/timeline.png" alt="时间线" /><br />资源时间线</a></td>
+<td><img class="icon" src="include/milestone.png" alt="iCalendar" /><br />无项目里程碑</td>
+                    </tr>
+                </table>
+            </div>
+		</div>
+		<h2 class="section-head-open">
+			资源日历
+		</h2>
+        <div class="section-body">
+            <div class="section-content" id="resource-content">
+                <table class="basic" id="resource">
+                    <tr>
+                        <td class='header'>
+资源
+                        </td>
+                        <td class='header'>
+日历
+                        </td>
+                        <td class='header'>
+待办事项列表
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class=\"wrap\">
+郭茜
+                        </td>
+                        <td class=\"wrap\">
+<a href="calendars/1%20%E9%83%AD%E8%8C%9C.ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>郭茜 日历</a>
+                        </td>
+                        <td class=\"wrap\">
+<a href="todos/1%20%E9%83%AD%E8%8C%9C.ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>郭茜 的待办事项列表</a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class=\"wrap\">
+王琛
+                        </td>
+                        <td class=\"wrap\">
+<a href="calendars/2%20%E7%8E%8B%E7%90%9B.ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>王琛 日历</a>
+                        </td>
+                        <td class=\"wrap\">
+<a href="todos/2%20%E7%8E%8B%E7%90%9B.ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>王琛 的待办事项列表</a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class=\"wrap\">
+白凯
+                        </td>
+                        <td class=\"wrap\">
+<a href="calendars/3%20%E7%99%BD%E5%87%AF.ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>白凯 日历</a>
+                        </td>
+                        <td class=\"wrap\">
+<a href="todos/3%20%E7%99%BD%E5%87%AF.ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>白凯 的待办事项列表</a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class=\"wrap\">
+赵一鸣
+                        </td>
+                        <td class=\"wrap\">
+<a href="calendars/4%20%E8%B5%B5%E4%B8%80%E9%B8%A3.ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>赵一鸣 日历</a>
+                        </td>
+                        <td class=\"wrap\">
+<a href="todos/4%20%E8%B5%B5%E4%B8%80%E9%B8%A3.ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>赵一鸣 的待办事项列表</a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class=\"wrap\">
+虞里杉
+                        </td>
+                        <td class=\"wrap\">
+<a href="calendars/16%20%E8%99%9E%E9%87%8C%E6%9D%89.ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>虞里杉 日历</a>
+                        </td>
+                        <td class=\"wrap\">
+<a href="todos/16%20%E8%99%9E%E9%87%8C%E6%9D%89.ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>虞里杉 的待办事项列表</a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class=\"wrap\">
+袁伟明
+                        </td>
+                        <td class=\"wrap\">
+<a href="calendars/5%20%E8%A2%81%E4%BC%9F%E6%98%8E.ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>袁伟明 日历</a>
+                        </td>
+                        <td class=\"wrap\">
+<a href="todos/5%20%E8%A2%81%E4%BC%9F%E6%98%8E.ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>袁伟明 的待办事项列表</a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class=\"wrap\">
+刘旭
+                        </td>
+                        <td class=\"wrap\">
+<a href="calendars/6%20%E5%88%98%E6%97%AD.ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>刘旭 日历</a>
+                        </td>
+                        <td class=\"wrap\">
+<a href="todos/6%20%E5%88%98%E6%97%AD.ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>刘旭 的待办事项列表</a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class=\"wrap\">
+？？
+                        </td>
+                        <td class=\"wrap\">
+<a href="calendars/7%20%EF%BC%9F%EF%BC%9F.ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>？？ 日历</a>
+                        </td>
+                        <td class=\"wrap\">
+<a href="todos/7%20%EF%BC%9F%EF%BC%9F.ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>？？ 的待办事项列表</a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class=\"wrap\">
+？？
+                        </td>
+                        <td class=\"wrap\">
+<a href="calendars/8%20%EF%BC%9F%EF%BC%9F.ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>？？ 日历</a>
+                        </td>
+                        <td class=\"wrap\">
+<a href="todos/8%20%EF%BC%9F%EF%BC%9F.ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>？？ 的待办事项列表</a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class=\"wrap\">
+江彤
+                        </td>
+                        <td class=\"wrap\">
+<a href="calendars/9%20%E6%B1%9F%E5%BD%A4.ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>江彤 日历</a>
+                        </td>
+                        <td class=\"wrap\">
+<a href="todos/9%20%E6%B1%9F%E5%BD%A4.ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>江彤 的待办事项列表</a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class=\"wrap\">
+敬晓阳
+                        </td>
+                        <td class=\"wrap\">
+<a href="calendars/10%20%E6%95%AC%E6%99%93%E9%98%B3.ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>敬晓阳 日历</a>
+                        </td>
+                        <td class=\"wrap\">
+<a href="todos/10%20%E6%95%AC%E6%99%93%E9%98%B3.ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>敬晓阳 的待办事项列表</a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class=\"wrap\">
+张宁
+                        </td>
+                        <td class=\"wrap\">
+<a href="calendars/11%20%E5%BC%A0%E5%AE%81.ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>张宁 日历</a>
+                        </td>
+                        <td class=\"wrap\">
+<a href="todos/11%20%E5%BC%A0%E5%AE%81.ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>张宁 的待办事项列表</a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class=\"wrap\">
+贾双喜
+                        </td>
+                        <td class=\"wrap\">
+<a href="calendars/12%20%E8%B4%BE%E5%8F%8C%E5%96%9C.ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>贾双喜 日历</a>
+                        </td>
+                        <td class=\"wrap\">
+<a href="todos/12%20%E8%B4%BE%E5%8F%8C%E5%96%9C.ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>贾双喜 的待办事项列表</a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class=\"wrap\">
+现场研发1？
+                        </td>
+                        <td class=\"wrap\">
+<a href="calendars/13%20%E7%8E%B0%E5%9C%BA%E7%A0%94%E5%8F%911%EF%BC%9F.ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>现场研发1？ 日历</a>
+                        </td>
+                        <td class=\"wrap\">
+<a href="todos/13%20%E7%8E%B0%E5%9C%BA%E7%A0%94%E5%8F%911%EF%BC%9F.ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>现场研发1？ 的待办事项列表</a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class=\"wrap\">
+现场研发2？
+                        </td>
+                        <td class=\"wrap\">
+<a href="calendars/14%20%E7%8E%B0%E5%9C%BA%E7%A0%94%E5%8F%912%EF%BC%9F.ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>现场研发2？ 日历</a>
+                        </td>
+                        <td class=\"wrap\">
+<a href="todos/14%20%E7%8E%B0%E5%9C%BA%E7%A0%94%E5%8F%912%EF%BC%9F.ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>现场研发2？ 的待办事项列表</a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class=\"wrap\">
+现场研发3？
+                        </td>
+                        <td class=\"wrap\">
+<a href="calendars/15%20%E7%8E%B0%E5%9C%BA%E7%A0%94%E5%8F%913%EF%BC%9F.ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>现场研发3？ 日历</a>
+                        </td>
+                        <td class=\"wrap\">
+<a href="todos/15%20%E7%8E%B0%E5%9C%BA%E7%A0%94%E5%8F%913%EF%BC%9F.ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>现场研发3？ 的待办事项列表</a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class=\"wrap\">
+现场研发4？
+                        </td>
+                        <td class=\"wrap\">
+<a href="calendars/17%20%E7%8E%B0%E5%9C%BA%E7%A0%94%E5%8F%914%EF%BC%9F.ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>现场研发4？ 日历</a>
+                        </td>
+                        <td class=\"wrap\">
+<a href="todos/17%20%E7%8E%B0%E5%9C%BA%E7%A0%94%E5%8F%914%EF%BC%9F.ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>现场研发4？ 的待办事项列表</a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class=\"wrap\">
+柴宗三
+                        </td>
+                        <td class=\"wrap\">
+<a href="calendars/20%20%E6%9F%B4%E5%AE%97%E4%B8%89.ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>柴宗三 日历</a>
+                        </td>
+                        <td class=\"wrap\">
+<a href="todos/20%20%E6%9F%B4%E5%AE%97%E4%B8%89.ics"><img class="small-icon" src="include/ics.png" alt="iCalendar"/>柴宗三 的待办事项列表</a>
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+<p class="footer">输出日期 17/6/8</p>
+<p class="footer">由 <a href="http://www.omnigroup.com">The Omni Group</a> 开发的 OmniPlan 2.4.1</p>
+	</body>
+</html>
