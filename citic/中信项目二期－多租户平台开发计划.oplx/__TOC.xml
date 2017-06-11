@@ -3,21 +3,21 @@
   <window x="0" y="38" w="1280" h="739">
     <editing-scenario>bZEZ7i0x117</editing-scenario>
     <comparison-scenario>mAjS7kTngGb</comparison-scenario>
-    <view>task</view>
+    <view>resource</view>
     <change-tracking/>
     <draw-folded/>
     <status-display>extended-alternate</status-display>
     <task-view>
-      <split-view-divider-position>532</split-view-divider-position>
-      <outline x="0" y="0" w="532" h="617">
+      <split-view-divider-position>508</split-view-divider-position>
+      <outline x="0" y="0" w="508" h="617">
         <column name="Violations" width="20"/>
         <column name="Notes" width="20"/>
-        <column name="Title" width="404"/>
-        <column name="Effort" width="64"/>
-        <expanded-items idrefs="t17 t9 t13 t34 t192 t14 t10 t162 t15 t193 t32 t6 t16 t180 t7 t196 t12 t33 t8 t179"/>
-        <selected-items-at-filter-time idrefs="t194 t183 t199 t188 t204 t192 t181 t197 t186 t202 t190 t195 t184 t200 t189 t205 t178 t193 t182 t198 t187 t203 t191 t180 t196 t185 t201 t179"/>
+        <column name="Title" width="392"/>
+        <column name="Effort" width="71"/>
+        <expanded-items idrefs="t8 t179 t21 t13 t9 t34 t26 t192 t18 t30 t22 t14 t27 t10 t162 t15 t23 t193 t6 t24 t16 t32 t29 t7 t20 t196 t33 t25 t17"/>
+        <selected-items-at-filter-time idrefs="t219 t215 t221 t225 t218 t220 t214 t224 t223 t213 t217 t216 t212 t222"/>
       </outline>
-      <gantt-view x="216" y="0" w="747" h="617">
+      <gantt-view x="608.5" y="0" w="771" h="617">
         <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -49,7 +49,7 @@
         <task-bar-label task-type="task" position="right">
           <key>Assigned</key>
         </task-bar-label>
-        <scale scale-name="Automatic" full-day-width="93.0225">
+        <scale scale-name="Automatic" full-day-width="181.121">
           <selected/>
         </scale>
         <scale scale-name="Day" full-day-width="1215"/>
@@ -69,9 +69,9 @@
         <column name="Type" width="49"/>
         <column name="Resource" width="135"/>
         <column name="#" width="75"/>
-        <selected-items-at-filter-time idrefs="r7 r17 r12 r3 r8 r15 r10 r4 r9 r13 r5 r16 r11 r6 r19 r14 r2"/>
+        <selected-items-at-filter-time idrefs="r14 r7 r17 r12 r3 r8 r21 r10 r15 r4 r9 r13 r5 r16 r11 r22 r6 r20 r2"/>
       </outline>
-      <timeline x="481" y="0" w="945" h="617">
+      <timeline x="-22" y="0" w="945" h="617">
         <offtime-display>none</offtime-display>
         <show-project-end/>
         <task-bar-label task-type="group" position="left">
@@ -101,7 +101,7 @@
         <task-bar-label task-type="task" position="right">
           <key/>
         </task-bar-label>
-        <scale scale-name="Automatic" full-day-width="300">
+        <scale scale-name="Automatic" full-day-width="83.8468">
           <selected/>
         </scale>
         <scale scale-name="Day" full-day-width="1215"/>
@@ -115,7 +115,7 @@
     </resource-view>
     <calendar>
       <split-view-divider-position>290</split-view-divider-position>
-      <outline x="0" y="0" w="290" h="553">
+      <outline x="0" y="0" w="290" h="582">
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
         <column name="Resource" width="139"/>
@@ -125,8 +125,8 @@
     </calendar>
   </window>
   <project>
-    <next-task-id>206</next-task-id>
-    <next-resource-id>20</next-resource-id>
+    <next-task-id>226</next-task-id>
+    <next-resource-id>23</next-resource-id>
     <scenario id="bZEZ7i0x117" name="Actual" filename="Actual.xml"/>
     <scenario id="mAjS7kTngGb" name="基线 17/6/1" filename="mAjS7kTngGb.xml"/>
     <date-display dates="true" times="true" seconds="false"/>
