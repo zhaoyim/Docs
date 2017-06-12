@@ -1,126 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
   <version>2.1</version>
-  <task-change-set user="wangdong" date="2017-06-10T07:30:47.652Z" timestamp="2017-06-10T07:30:47.652Z">
-    <change idref="t211" attribute="effort" type="real" from="28800" to="432000" resolved="yes"/>
+  <task-change-set user="wangdong" date="2017-06-12T14:10:36.477Z" timestamp="2017-06-12T14:10:36.477Z">
+    <change idref="t218" attribute="internalAssignments" type="string" from="15" to="21" resolved="yes"/>
+    <change idref="t219" attribute="internalAssignments" type="string" from="15" to="17" resolved="yes"/>
   </task-change-set>
-  <task-change-set user="wangdong" date="2017-06-10T08:45:30.911Z" timestamp="2017-06-10T08:45:30.911Z">
-    <change idref="t213" to="t-1" to-position="8" resolved="yes">
-      <change idref="t213" attribute="isGroup" type="real" from="0" to="1"/>
-      <change idref="t213" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-09T16:00:00.000Z"/>
-      <change idref="t213" attribute="taskType" type="real" from="0" to="2"/>
-      <change idref="t213" attribute="title" type="string" to="资源监控数据收集框架开发"/>
-    </change>
-    <change idref="t49" attribute="internalEffortDone" type="real" from="900" to="0" resolved="yes"/>
-    <change idref="t85" attribute="internalAssignments" type="string" from="12" to="" resolved="yes"/>
-    <change idref="t126" attribute="internalAssignments" type="string" from="13" to="" resolved="yes"/>
-    <change idref="t127" attribute="internalAssignments" type="string" from="13" to="" resolved="yes"/>
-    <change idref="t128" attribute="internalAssignments" type="string" from="13" to="" resolved="yes"/>
-    <change idref="t130" attribute="internalAssignments" type="string" from="13" to="" resolved="yes"/>
-    <change idref="t131" attribute="internalAssignments" type="string" from="13" to="" resolved="yes"/>
-    <change idref="t132" attribute="internalAssignments" type="string" from="13" to="" resolved="yes"/>
-    <change idref="t185" attribute="effort" type="real" from="86400" to="0" resolved="yes"/>
-    <change idref="t186" attribute="effort" type="real" from="57600" to="0" resolved="yes"/>
-    <change idref="t215" to="t213" to-position="0" resolved="yes">
-      <change idref="t215" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-09T16:00:00.000Z"/>
-      <change idref="t215" attribute="title" type="string" to="HDFS按实例收集资源使用信息"/>
-    </change>
-    <change idref="t216" to="t213" to-position="1" resolved="yes">
-      <change idref="t216" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-09T16:00:00.000Z"/>
-      <change idref="t216" attribute="title" type="string" to="YARN按实例收集资源使用信息"/>
-    </change>
-    <change idref="t217" to="t213" to-position="2" resolved="yes">
-      <change idref="t217" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-09T16:00:00.000Z"/>
-      <change idref="t217" attribute="title" type="string" to="HBase按实例收集资源使用信息"/>
-    </change>
-    <change idref="t218" to="t213" to-position="3" resolved="yes">
-      <change idref="t218" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-09T16:00:00.000Z"/>
-      <change idref="t218" attribute="title" type="string" to="HIve按实例收集资源使用信息"/>
-    </change>
-    <change idref="t219" to="t213" to-position="4" resolved="yes">
-      <change idref="t219" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-09T16:00:00.000Z"/>
-      <change idref="t219" attribute="title" type="string" to="Kafka按实例收集资源使用信息"/>
-    </change>
-    <change idref="t220" to="t213" to-position="5" resolved="yes">
-      <change idref="t220" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-09T16:00:00.000Z"/>
-      <change idref="t220" attribute="title" type="string" to="GreenPlum按实例收集资源使用信息"/>
-    </change>
-    <change idref="t221" to="t213" to-position="6" resolved="yes">
-      <change idref="t221" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-09T16:00:00.000Z"/>
-      <change idref="t221" attribute="title" type="string" to="MongoDB按实例收集资源使用信息"/>
-    </change>
-    <change idref="t222" to="t213" to-position="7" resolved="yes">
-      <change idref="t222" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-09T16:00:00.000Z"/>
-      <change idref="t222" attribute="title" type="string" to="Neo4j按实例收集资源使用信息"/>
-    </change>
-    <change idref="t223" to="t213" to-position="8" resolved="yes">
-      <change idref="t223" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-09T16:00:00.000Z"/>
-      <change idref="t223" attribute="title" type="string" to="RabbitMQ按实例收集资源使用信息"/>
-    </change>
-    <change idref="t224" to="t213" to-position="9" resolved="yes">
-      <change idref="t224" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-09T16:00:00.000Z"/>
-      <change idref="t224" attribute="title" type="string" to="按实例获取资源使用信息REST API"/>
-    </change>
-  </task-change-set>
-  <task-change-set user="wangdong" date="2017-06-10T08:55:55.803Z" timestamp="2017-06-10T08:55:55.803Z">
-    <change idref="t97" attribute="internalAssignments" type="string" from="14" to="16" resolved="yes"/>
-    <change idref="t98" attribute="internalAssignments" type="string" from="14" to="16" resolved="yes"/>
-    <change idref="t99" attribute="internalAssignments" type="string" from="14" to="16" resolved="yes"/>
-    <change idref="t100" attribute="internalAssignments" type="string" from="14" to="16" resolved="yes"/>
-    <change idref="t160" attribute="internalAssignments" type="string" from="15" to="14" resolved="yes"/>
-    <change idref="t161" attribute="internalAssignments" type="string" from="15" to="14" resolved="yes"/>
-    <change idref="t164" attribute="internalAssignments" type="string" from="17" to="4" resolved="yes"/>
-    <change idref="t165" attribute="internalAssignments" type="string" from="17" to="4" resolved="yes"/>
-    <change idref="t166" attribute="internalAssignments" type="string" from="17" to="4" resolved="yes"/>
-    <change idref="t167" attribute="internalAssignments" type="string" from="17" to="4" resolved="yes"/>
-    <change idref="t168" attribute="internalAssignments" type="string" from="17" to="4" resolved="yes"/>
-    <change idref="t169" attribute="internalAssignments" type="string" from="17" to="4" resolved="yes"/>
-    <change idref="t170" attribute="internalAssignments" type="string" from="17" to="4" resolved="yes"/>
-    <change idref="t171" attribute="internalAssignments" type="string" from="17" to="4" resolved="yes"/>
-    <change idref="t185" attribute="internalAssignments" type="string" from="13" to="" resolved="yes"/>
-    <change idref="t186" attribute="internalAssignments" type="string" from="13" to="" resolved="yes"/>
-    <change idref="t194" attribute="internalAssignments" type="string" from="" to="22" resolved="yes"/>
-    <change idref="t195" attribute="internalAssignments" type="string" from="" to="22" resolved="yes"/>
-    <change idref="t197" attribute="internalAssignments" type="string" from="" to="22" resolved="yes"/>
-    <change idref="t198" attribute="internalAssignments" type="string" from="" to="22" resolved="yes"/>
-    <change idref="t199" attribute="internalAssignments" type="string" from="" to="22" resolved="yes"/>
-    <change idref="t200" attribute="internalAssignments" type="string" from="" to="22" resolved="yes"/>
-    <change idref="t201" attribute="internalAssignments" type="string" from="" to="22" resolved="yes"/>
-    <change idref="t202" attribute="internalAssignments" type="string" from="" to="22" resolved="yes"/>
-    <change idref="t215" attribute="effort" type="real" from="28800" to="86400" resolved="yes"/>
-    <change idref="t215" attribute="internalAssignments" type="string" from="" to="15" resolved="yes"/>
-    <change idref="t216" attribute="effort" type="real" from="28800" to="86400" resolved="yes"/>
-    <change idref="t216" attribute="internalAssignments" type="string" from="" to="15" resolved="yes"/>
-    <change idref="t216" attribute="internalPrerequisitesString" type="string" to="215FS" resolved="yes"/>
-    <change idref="t217" attribute="effort" type="real" from="28800" to="86400" resolved="yes"/>
-    <change idref="t217" attribute="internalAssignments" type="string" from="" to="15" resolved="yes"/>
-    <change idref="t217" attribute="internalPrerequisitesString" type="string" to="216FS" resolved="yes"/>
-    <change idref="t218" attribute="effort" type="real" from="28800" to="86400" resolved="yes"/>
-    <change idref="t218" attribute="internalAssignments" type="string" from="" to="15" resolved="yes"/>
-    <change idref="t218" attribute="internalPrerequisitesString" type="string" to="217FS" resolved="yes"/>
-    <change idref="t219" attribute="effort" type="real" from="28800" to="86400" resolved="yes"/>
-    <change idref="t219" attribute="internalAssignments" type="string" from="" to="15" resolved="yes"/>
-    <change idref="t219" attribute="internalPrerequisitesString" type="string" to="218FS" resolved="yes"/>
-    <change idref="t220" attribute="effort" type="real" from="28800" to="230400" resolved="yes"/>
-    <change idref="t220" attribute="internalAssignments" type="string" from="" to="17" resolved="yes"/>
-    <change idref="t221" attribute="effort" type="real" from="28800" to="230400" resolved="yes"/>
-    <change idref="t221" attribute="internalAssignments" type="string" from="" to="17" resolved="yes"/>
-    <change idref="t221" attribute="internalPrerequisitesString" type="string" to="220FS" resolved="yes"/>
-    <change idref="t222" attribute="effort" type="real" from="28800" to="144000" resolved="yes"/>
-    <change idref="t222" attribute="internalAssignments" type="string" from="" to="21" resolved="yes"/>
-    <change idref="t223" attribute="effort" type="real" from="28800" to="144000" resolved="yes"/>
-    <change idref="t223" attribute="internalAssignments" type="string" from="" to="21" resolved="yes"/>
-    <change idref="t223" attribute="internalPrerequisitesString" type="string" to="222FS" resolved="yes"/>
-    <change idref="t224" attribute="effort" type="real" from="28800" to="144000" resolved="yes"/>
-    <change idref="t224" attribute="internalAssignments" type="string" from="" to="21" resolved="yes"/>
-    <change idref="t224" attribute="internalPrerequisitesString" type="string" to="223FS" resolved="yes"/>
-  </task-change-set>
-  <resource-change-set user="wangdong" date="2017-06-10T08:55:55.797Z" timestamp="2017-06-10T08:55:55.797Z">
-    <change idref="r21" to="r-1" to-position="17" resolved="yes">
-      <change idref="r21" attribute="name" type="string" to="现场研发5？"/>
-    </change>
-    <change idref="r22" to="r-1" to-position="19" resolved="yes">
-      <change idref="r22" attribute="name" type="string" to="王栋"/>
-    </change>
+  <resource-change-set user="wangdong" date="2017-06-12T14:10:36.472Z" timestamp="2017-06-12T14:10:36.472Z">
+    <change idref="r13" attribute="name" type="string" from="现场研发1？" to="罗丹丹" resolved="yes"/>
+    <change idref="r14" attribute="name" type="string" from="现场研发2？" to="于晶" resolved="yes"/>
+    <change idref="r15" attribute="name" type="string" from="现场研发3？" to="张富强" resolved="yes"/>
+    <change idref="r17" attribute="name" type="string" from="现场研发4？" to="闫林生" resolved="yes"/>
+    <change idref="r21" attribute="name" type="string" from="现场研发5？" to="赵星云" resolved="yes"/>
+  </resource-change-set>
+  <resource-change-set user="wangdong" date="2017-06-12T14:23:58.222Z" timestamp="2017-06-12T14:23:58.222Z">
+    <change idref="r8" attribute="name" type="string" from="？？" to="柴宗三" resolved="yes"/>
   </resource-change-set>
 </changelog>

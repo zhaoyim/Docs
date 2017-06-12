@@ -149,7 +149,7 @@
         </Calendar>
         <Calendar>
             <UID>10</UID>
-            <Name>？？</Name>
+            <Name>柴宗三</Name>
             <IsBaseCalendar>0</IsBaseCalendar>
             <BaseCalendarUID>1</BaseCalendarUID>
         </Calendar>
@@ -179,31 +179,31 @@
         </Calendar>
         <Calendar>
             <UID>15</UID>
-            <Name>现场研发1？</Name>
+            <Name>罗丹丹</Name>
             <IsBaseCalendar>0</IsBaseCalendar>
             <BaseCalendarUID>1</BaseCalendarUID>
         </Calendar>
         <Calendar>
             <UID>16</UID>
-            <Name>现场研发2？</Name>
+            <Name>于晶</Name>
             <IsBaseCalendar>0</IsBaseCalendar>
             <BaseCalendarUID>1</BaseCalendarUID>
         </Calendar>
         <Calendar>
             <UID>17</UID>
-            <Name>现场研发3？</Name>
+            <Name>张富强</Name>
             <IsBaseCalendar>0</IsBaseCalendar>
             <BaseCalendarUID>1</BaseCalendarUID>
         </Calendar>
         <Calendar>
             <UID>18</UID>
-            <Name>现场研发4？</Name>
+            <Name>闫林生</Name>
             <IsBaseCalendar>0</IsBaseCalendar>
             <BaseCalendarUID>1</BaseCalendarUID>
         </Calendar>
         <Calendar>
             <UID>19</UID>
-            <Name>现场研发5？</Name>
+            <Name>赵星云</Name>
             <IsBaseCalendar>0</IsBaseCalendar>
             <BaseCalendarUID>1</BaseCalendarUID>
         </Calendar>
@@ -5224,7 +5224,7 @@
         <Resource>
             <UID>8</UID>
             <ID>9</ID>
-            <Name>？？</Name>
+            <Name>柴宗三</Name>
             <Type>1</Type>
             <MaxUnits>1.000000</MaxUnits>
             <IsNull>0</IsNull>
@@ -5284,7 +5284,7 @@
         <Resource>
             <UID>13</UID>
             <ID>14</ID>
-            <Name>现场研发1？</Name>
+            <Name>罗丹丹</Name>
             <Type>1</Type>
             <MaxUnits>1.000000</MaxUnits>
             <IsNull>0</IsNull>
@@ -5296,7 +5296,7 @@
         <Resource>
             <UID>14</UID>
             <ID>15</ID>
-            <Name>现场研发2？</Name>
+            <Name>于晶</Name>
             <Type>1</Type>
             <MaxUnits>1.000000</MaxUnits>
             <IsNull>0</IsNull>
@@ -5308,7 +5308,7 @@
         <Resource>
             <UID>15</UID>
             <ID>16</ID>
-            <Name>现场研发3？</Name>
+            <Name>张富强</Name>
             <Type>1</Type>
             <MaxUnits>1.000000</MaxUnits>
             <IsNull>0</IsNull>
@@ -5320,7 +5320,7 @@
         <Resource>
             <UID>17</UID>
             <ID>17</ID>
-            <Name>现场研发4？</Name>
+            <Name>闫林生</Name>
             <Type>1</Type>
             <MaxUnits>1.000000</MaxUnits>
             <IsNull>0</IsNull>
@@ -5332,7 +5332,7 @@
         <Resource>
             <UID>21</UID>
             <ID>18</ID>
-            <Name>现场研发5？</Name>
+            <Name>赵星云</Name>
             <Type>1</Type>
             <MaxUnits>1.000000</MaxUnits>
             <IsNull>0</IsNull>
@@ -6879,7 +6879,7 @@
         <Assignment>
             <UID>139</UID>
             <TaskUID>218</TaskUID>
-            <ResourceUID>15</ResourceUID>
+            <ResourceUID>21</ResourceUID>
             <Milestone>0</Milestone>
             <Units>1</Units>
             <Work>PT24H0M0S</Work>
@@ -6890,7 +6890,7 @@
         <Assignment>
             <UID>140</UID>
             <TaskUID>219</TaskUID>
-            <ResourceUID>15</ResourceUID>
+            <ResourceUID>17</ResourceUID>
             <Milestone>0</Milestone>
             <Units>1</Units>
             <Work>PT24H0M0S</Work>
@@ -6954,5 +6954,5 @@
             <Finish>2017-06-30T02:00:00</Finish>
         </Assignment>
     </Assignments>
-    <!--  2017-06-12 08:00:02 +0000: OmniPlan 2.x MSPDI Exporter.  -->
+    <!--  2017-06-12 14:24:44 +0000: OmniPlan 2.x MSPDI Exporter.  -->
 </Project>

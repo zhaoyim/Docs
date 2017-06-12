@@ -14,10 +14,9 @@
         <column name="Notes" width="20"/>
         <column name="Title" width="392"/>
         <column name="Effort" width="71"/>
-        <expanded-items idrefs="t8 t179 t21 t13 t9 t34 t26 t192 t18 t30 t22 t14 t27 t10 t162 t15 t23 t193 t6 t24 t16 t32 t29 t7 t20 t196 t33 t25 t17"/>
-        <selected-items-at-filter-time idrefs="t219 t215 t221 t225 t218 t220 t214 t224 t223 t213 t217 t216 t212 t222"/>
+        <expanded-items idrefs="t8 t179 t21 t13 t9 t34 t26 t192 t18 t30 t22 t14 t213 t27 t10 t162 t15 t23 t193 t6 t24 t16 t32 t180 t29 t7 t20 t33 t25 t17"/>
       </outline>
-      <gantt-view x="608.5" y="0" w="771" h="617">
+      <gantt-view x="308" y="0" w="771" h="617">
         <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>
