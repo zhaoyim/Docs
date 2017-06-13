@@ -14,7 +14,7 @@
         <column name="Notes" width="20"/>
         <column name="Title" width="392"/>
         <column name="Effort" width="71"/>
-        <expanded-items idrefs="t8 t179 t21 t13 t9 t34 t26 t192 t18 t30 t22 t14 t213 t27 t10 t162 t15 t23 t193 t6 t24 t16 t32 t180 t29 t7 t20 t33 t25 t17"/>
+        <expanded-items idrefs="t26 t13 t8 t32 t196 t180 t192 t27 t9 t14 t33 t20 t15 t34 t193 t21 t29 t16 t178 t22 t162 t17 t1 t2 t213 t23 t10 t18 t3 t179 t24 t4 t30 t5 t25 t6 t7"/>
       </outline>
       <gantt-view x="308" y="0" w="771" h="617">
         <view-mode>actual</view-mode>
@@ -70,7 +70,7 @@
         <column name="#" width="75"/>
         <selected-items-at-filter-time idrefs="r14 r7 r17 r12 r3 r8 r21 r10 r15 r4 r9 r13 r5 r16 r11 r22 r6 r20 r2"/>
       </outline>
-      <timeline x="-22" y="0" w="945" h="617">
+      <timeline x="-60" y="0" w="925.812182741117" h="617">
         <offtime-display>none</offtime-display>
         <show-project-end/>
         <task-bar-label task-type="group" position="left">
